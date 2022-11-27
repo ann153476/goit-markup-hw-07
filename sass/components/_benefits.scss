@@ -1,0 +1,31 @@
+.benefits{
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+.benefits--flex__between{
+    display: flex;
+    justify-content: space-between;
+}
+.benefits__ico--flex__center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.benefits__card{
+    width: 270px;
+}
+.benefits__ico{
+    height: 120px;
+    border-radius: 4px;
+    background-color:#F5F4FA;
+    margin-bottom: 30px;
+}
+.benefits__title{
+    margin-bottom: 10px;
+    line-height: 1.14;
+    font-weight: 700;
+}
+.benefits__text{
+    line-height: 1.71;
+    font-weight: 400;
+}

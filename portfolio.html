@@ -9,12 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 <body>
-    <header class="header" >
-        <div class="flex container">
-        <a href="#" class="logo logo__up"><span class="color__web">Web</span><span class="color__studio__up">Studio</span></a>
+    <header class="flex container">
+        <a href="#" class="logo logo__plase__up"><span class="color__web">Web</span><span class="color__studio__up">Studio</span></a>
         <nav>
             <ul class="flex nav__style">
                 <li><a href="index.html" >Студія</a></li>
@@ -23,12 +23,11 @@
             </ul>
         </nav>
         <ul class="flex contact__up__please">
-            <li><a href="mailto:info@devstudio.com" class="m__t__style__up mail">
+            <li><a href="mailto:info@devstudio.com" class="m__t__style__up flex--center">
                 <svg class="icon__m__t" width="16" height="12"><use href="./img/icons.svg#icon-envelopemail"></use></svg>info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="m__t__style__up">
+            <li><a href="tel:+380961111111" class="m__t__style__up flex--center">
                 <svg class="icon__m__t" width="10" height="16"><use href="./img/icons.svg#icon-smartphone"></use></svg>+38 096 111 11 11</a> </li>
         </ul>
-    </div>
     </header>
     <main>
     <section class="section">
@@ -148,8 +147,8 @@
     </main>
     <footer class="grey__blok__down">
         <div class="container flex" style="align-items:baseline;">
-            <div class="ico__block__place" >
-            <div><a href="#" class="logo__footer logo"><span class="color__web">Web</span><span class="color__studio__down">Studio</span></a></div>
+            <div>
+            <div><a href="#" class="logo__plase__down logo"><span class="color__web">Web</span><span class="color__studio__down">Studio</span></a></div>
             <address>
                 <ul class="address__position">
                 <li><a class="address__style" href="#">м. Київ, пр-т Лесі Українки, 26</p></li>
@@ -157,16 +156,16 @@
                 <li><a class="m__t__style__down" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
             </address></div>
-            <div>
+            <div class="ico__block__place">
             <p class="join">приєднуйтесь</p>
-            <ul class="ico__messenger ico__messenger__down">
-                <li><a href="#"><svg width="20" height="20">
+            <ul class="ico__messenger flex--between">
+                <li><a class="ico__messenger__link ico__messenger--footer flex--center" href="#"><svg width="20" height="20">
                     <use href="./img/icons.svg#icon-instagram"></use></svg></a></li>
-                <li><a href="#"><svg width="20" height="20">
+                <li><a class="ico__messenger__link ico__messenger--footer flex--center" href="#"><svg width="20" height="20">
                     <use href="./img/icons.svg#icon-twitter"></use></svg></a></li>
-                <li><a href="#"><svg width="20" height="20">
+                <li><a class="ico__messenger__link ico__messenger--footer flex--center" href="#"><svg width="20" height="20">
                     <use href="./img/icons.svg#icon-facebook"></use></svg></a></li>
-                <li><a href="#"><svg width="20" height="20">
+                <li><a class="ico__messenger__link ico__messenger--footer flex--center" href="#"><svg width="20" height="20">
                     <use href="./img/icons.svg#icon-linkedin"></use></svg></a></li>
             </ul></div> 
             <div class="footer__mail">
@@ -174,7 +173,7 @@
                 <div class="flex">
                 <label for="mail"><p></p></label>
                 <input type="text" name="mail" id="mail"/>
-                <button>Підписатися
+                <button class="main__button flex--center">Підписатися
                     <svg width="24" height="24"><use href="./img/icondz6.svg#icon-fly"></use></svg>
                 </button>
                 </div>
