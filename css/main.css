@@ -549,7 +549,7 @@ p {
   font-weight: 400;
 }
 
-.photo__block {
+.photo-block {
   padding-bottom: 94px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -559,7 +559,7 @@ p {
           justify-content: space-between;
 }
 
-.photo__block__position {
+.photo-block__position {
   position: relative;
 }
 
