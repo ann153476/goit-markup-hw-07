@@ -3,6 +3,8 @@
     background-color: #F5F4FA;
 }
 .team{
+    display: flex;
+    justify-content: space-between;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
